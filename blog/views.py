@@ -5,3 +5,7 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'blog/base.html', {})
+
+
+def choice(request):
+    return render(request, 'blog/choice.html', {})
