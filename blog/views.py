@@ -8,4 +8,4 @@ def index(request):
 
 
 def choice(request):
-    return render(request, 'blog/choice_plant.html')
+    return render(request, 'blog/choice_plant.html', {})
